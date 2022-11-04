@@ -54,6 +54,13 @@ body {
     padding-left: 25px;
 }
 
+@media (max-width: 508px) {
+    body {
+      background-size: 1800px 1200px;
+      background-repeat: no-repeat;
+      overflow: hidden;
+    }
+}
 
 .bt-0 {
     padding-right: 86px;
